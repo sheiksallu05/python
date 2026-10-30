@@ -13,6 +13,7 @@ python_mark=90
 mark.append(python_mark)
 print(mark)
 
+#-------------------------------------------------------------------------
 
 # Tuple - real-time examples
 
@@ -28,6 +29,7 @@ color_num2=(255,255,255)
 color_num3=(0,0,0)
 print(color_num1,color_num2,color_num3)
 
+#-------------------------------------------------------------------------
 
 
 # Set - real-time examples
@@ -39,6 +41,6 @@ print(e_id)
 
 # 1) Phone Number
 
-p_num1={9876543210,9876543212,9876543210}
-print(p_num1)
+p_num={9876543210,9876543212,9876543210}
+print(p_num)
 
