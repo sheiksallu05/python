@@ -13,9 +13,9 @@ print(elements[-1::])#[100]
 
 element = (10, 20, 30, 40, 50, 60, 70)
 
-print(element[1:4])
-print(element[:3])
-print(element[2:])
-print(element[::2])
-print(element[::-1])
-print(element[-4:-1])
+print(element[1:4])#(20, 30, 40)
+print(element[:3])#(10, 20, 30)
+print(element[2:])#(30, 40, 50, 60, 70)
+print(element[::2])#(10, 30, 50, 70)
+print(element[::-1])#(70, 60, 50, 40, 30, 20, 10)
+print(element[-4:-1])#(40, 50, 60)
